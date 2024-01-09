@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../img/Banner\ Image.png');
+    height: 560px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-size: 100%;
+}
+
+.banner-head h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 26.4px;
+    font-weight: 330;
+}
+
+.banner-head h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 59.4px;
+    font-weight: 742.5;
+    width: 521.5px;
+    margin: 0px auto;
+
+}
+
+.banner-head {
+    padding: 177px 0px;
+}
+
+.header-part2 {
+    font-family: 'Inter';
+}
+
+.header-part2 h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 72.6px;
+    font-weight: 577.5;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.header-part2 p {
+    color: #F00;
+    text-align: center;
+    font-size: 19.8px;
+    font-weight: 412.5;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.header-part2 h3 {
+    color: #070211;
+    text-align: center;
+    font-size: 39.6px;
+    font-weight: 577.5;
+}
+
+.header-part2-img {
+    width: 802.9px;
+    height: 450px;
+    margin: 48px auto 120px;
+}
+
+.banner2 {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../img/Vectorrr.png');
+    height: 495px;
+    background-size: 100%;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.banner2 h1 {
+    color: #FFF;
+    font-size: 52.8px;
+    font-weight: 742.5;
+    letter-spacing: 5.808px;
+    width: 529.65px;
+    font-family: 'Merriweather';
+    margin-bottom: 19.8px;
+}
+
+.banner2 p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14.85px;
+    font-weight: 330;
+    font-family: 'Inter';
+    width: 575.025px;
+    margin-bottom: 26.4px;
+}
+
+.banner2 h4 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 16.5px;
+    font-weight: 577.5;
+    text-transform: uppercase;
+}
+
+.banner2-main {
+    justify-content: space-around;
+}
+
+.main-banner {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto 120px;
+    height: 397.65px;
+    background-size: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.main-banner-span {
+    color: #F00;
+}
+
+.main-banner-head {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 26.4px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 105px 0px;
+}
+
+.button-join {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 26.4px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    color: #FFF;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 16.5px;
+    font-weight: 577.5;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+
+
+.main-banner2 {
+    width: 82.5%;
+    max-width: 1320px;
+    margin-left: 120px;
+    justify-content: space-around;
+}
+
+.main-banner2-head h4 {
+    color: #F00;
+    font-size: 19.8px;
+    font-family: 'Inter';
+    font-weight: 412.5;
+    margin-bottom: 16px;
+}
+
+.main-banner2-head h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 39.6px;
+    font-weight: 742.5;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.main-banner2-head p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 16.5px;
+    font-weight: 330;
+    width: 739.2px;
+    margin-bottom: 48px;
+}
+
+.main-banner2-head{
+    margin-left: 100px;
+}
+.main-banner2-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.main-banner2-img img {
+    width: 100%;
+    height: 350px;
+}
+
+.main-banner3 {
+    padding: 80px 0px;
+}
+
+.main-banner3-head h1 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 39.6px;
+    font-weight: 742.5;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.main-banner3-head p {
+    width: 739.2px;
+    text-align: center;
+    margin: 0px auto;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 330;
+    margin-top: 22px;
+}
+
+
+.main-banner3 {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.main-banner3-img {
+    text-align: center;
+}
+
+
+.form-part input {
+    width: 534.6px;
+    height: 62px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 14.85px;
+    font-weight: 330;
+    padding-left: 25px;
+}
+
+.main-form-part {
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.form-part {
+    border-collapse: collapse;
+    row-gap: 0px;
+}
+
+.button-sub {
+    width: 210px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16.5px;
+    font-weight: 495;
+    text-transform: capitalize;
+}
+
+.foot {
+    height: 609px;
+    background: #070211;
+}
+
+.foot-banner {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.foot-head-1 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 19.8px;
+    font-weight: 412.5;
+    width: 309.375px;
+}
+
+.foot-head-2 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 19.8px;
+    font-weight: 412.5;
+}
+
+
+
+.foot-head-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.foot-img-banner {
+    display: flex;
+    margin: 48px auto;
+    width: 250px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.foot-head-button1 h3,.foot-head-button2 h3{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 19.8px;
+    font-weight: 412.5;
+}
+
+.foot-head-button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
